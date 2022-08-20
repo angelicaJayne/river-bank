@@ -9,7 +9,7 @@ function ConnectWallet({ title, handleClose, identity, imagesrc }) {
   // const [isOpen, setIsOpen] = useState(false);
   // const toggleWalletPopUp = () => {
   //   setIsOpen(!isOpen);
-  // };
+  // }; //test
 
   const [getData, setGetData] = useState({
     message: "",
