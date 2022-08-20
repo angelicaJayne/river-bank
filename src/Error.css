@@ -1,0 +1,36 @@
+.Ewrapper{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2em;
+  
+    border: solid 2px var(--main-color);
+    background-image: linear-gradient(white, #eaedfd);
+    text-align: center;
+    align-items: center;
+}
+
+.Ewrapper p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #000;
+}
+
+
+.Ewrapper button {
+    background-image: linear-gradient(to right, #2f4ace, #e68387);
+    padding: 1em;
+    border: none;
+}
+
+.Ewrapper button a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.Ewrapper button a:hover{
+    color: white;
+}

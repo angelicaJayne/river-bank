@@ -1,0 +1,90 @@
+
+.Topp{
+    padding: 2em 0;
+    background-color: #e5e5e5;
+}
+.hero {
+    padding: 2.5em;
+    background-color: #fff;
+    border: solid 2px  #000;
+    margin: 0;
+}
+.heroIssues {
+    padding: 2.5em;
+    background-color: #fff;
+    border: solid 2px  var(--main-color);
+    margin: 0;
+}
+
+h2{
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+}
+h3{
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.Btns {
+    border: none;
+    margin-top: 1em;
+    background-color: var(--main-color);
+    padding: 1em;
+    border-radius: 10px;
+
+}
+
+.Btns:hover {
+    background-color: #000;
+}
+
+.Btns a {
+    font-family: "Open sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.Btn {
+    border: none;
+    margin-top: 1em;
+    background-color: var(--sec-color);
+    padding: .5em 2em;
+
+}
+
+.Btn a{
+    font-family: "Open sans", sans-serif;
+    font-size: 1.125rem;
+    letter-spacing: 2px;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+span{
+   color: var(--sec-color)
+}
+
+@media screen and (min-width: 768px) {
+    h3{
+        font-size: 2.2rem;
+    }
+p{
+    font-size: 20px;
+    width: 80%;
+    margin: 10px auto;
+}
+
+}
